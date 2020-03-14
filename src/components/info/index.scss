@@ -1,0 +1,61 @@
+.info {
+  background-color: #cf4338 !important;
+  .bv-example-row {
+    padding: 0px !important;
+    .text-center {
+      .left-col {
+        text-align: left;
+        font-size: 16px;
+        color: #fff;
+        .total-revenue {
+          display: flex;
+          align-items: center;
+          border-bottom: 2px solid #fff;
+          .left-tr {
+            display: inline-block;
+            font-size: 87px;
+          }
+          .right-tr {
+            margin-left: 5px;
+            display: inline-block;
+            font-size: 20px;
+          }
+        }
+        .date {
+          font-size: 20px;
+          margin-bottom: 5px;
+          .bv-example-row {
+            .text-center {
+              p {
+                margin: 5px 0 0 5px;
+                text-align: left;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+      }
+      .right-col{
+        height: 100%;
+        width: 100%;
+        background-color: #fff;
+        margin:0 10px;
+        padding:20px;
+        border-radius: 5px;
+        text-align: left;
+        .username{
+          font-size: 30px;
+          color: black;
+          font-weight:800;
+          margin-bottom: 10px;
+        }
+        p{
+          margin-bottom: 5px;
+          font-size: 20px;
+          font-weight:600;
+          color:#999999;
+        }
+      }
+    }
+  }
+}
